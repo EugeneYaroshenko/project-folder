@@ -1,0 +1,771 @@
+@import url("https://p.typekit.net/p.css?s=1&k=npe0zjq&ht=tk&f=6958.6959.6960.6961.6962.6963.10890.10891.10892.10893.10900.10901.10904.10905&a=17880044&app=typekit&e=css");
+
+@font-face {
+  font-family:"pt-sans";
+  src:url("https://use.typekit.net/af/dfade6/0000000000000000000124f9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/dfade6/0000000000000000000124f9/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/dfade6/0000000000000000000124f9/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+  font-family:"pt-sans";
+  src:url("https://use.typekit.net/af/46285f/0000000000000000000124f6/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/46285f/0000000000000000000124f6/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/46285f/0000000000000000000124f6/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+  font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+  font-family:"pt-sans";
+  src:url("https://use.typekit.net/af/86d3cf/0000000000000000000124fa/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/86d3cf/0000000000000000000124fa/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/86d3cf/0000000000000000000124fa/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+  font-family:"pt-sans";
+  src:url("https://use.typekit.net/af/c7dec9/0000000000000000000124f7/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/c7dec9/0000000000000000000124f7/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/c7dec9/0000000000000000000124f7/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+  font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+  font-family:"pt-sans-narrow";
+  src:url("https://use.typekit.net/af/bb203d/0000000000000000000124f3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/bb203d/0000000000000000000124f3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/bb203d/0000000000000000000124f3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+  font-family:"pt-sans-narrow";
+  src:url("https://use.typekit.net/af/841c9f/0000000000000000000124f4/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/841c9f/0000000000000000000124f4/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/841c9f/0000000000000000000124f4/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+  font-family:"pragmatica";
+  src:url("https://use.typekit.net/af/c9f384/0000000000000000000100ca/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/c9f384/0000000000000000000100ca/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/c9f384/0000000000000000000100ca/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+  font-family:"pragmatica";
+  src:url("https://use.typekit.net/af/4dd308/0000000000000000000100cb/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/4dd308/0000000000000000000100cb/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/4dd308/0000000000000000000100cb/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+  font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+  font-family:"pragmatica";
+  src:url("https://use.typekit.net/af/983872/0000000000000000000100cc/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/983872/0000000000000000000100cc/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/983872/0000000000000000000100cc/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+  font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+  font-family:"pragmatica";
+  src:url("https://use.typekit.net/af/a362cc/0000000000000000000100cd/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/a362cc/0000000000000000000100cd/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/a362cc/0000000000000000000100cd/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+  font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+  font-family:"pragmatica-condensed";
+  src:url("https://use.typekit.net/af/841d09/0000000000000000000100d4/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/841d09/0000000000000000000100d4/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/841d09/0000000000000000000100d4/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+  font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+  font-family:"pragmatica-condensed";
+  src:url("https://use.typekit.net/af/deed7a/0000000000000000000100d5/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/deed7a/0000000000000000000100d5/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/deed7a/0000000000000000000100d5/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+  font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+  font-family:"pragmatica-condensed";
+  src:url("https://use.typekit.net/af/415d74/0000000000000000000100d8/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff2"),url("https://use.typekit.net/af/415d74/0000000000000000000100d8/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff"),url("https://use.typekit.net/af/415d74/0000000000000000000100d8/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("opentype");
+  font-display:auto;font-style:normal;font-weight:900;
+}
+
+@font-face {
+  font-family:"pragmatica-condensed";
+  src:url("https://use.typekit.net/af/1a0e4f/0000000000000000000100d9/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("woff2"),url("https://use.typekit.net/af/1a0e4f/0000000000000000000100d9/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("woff"),url("https://use.typekit.net/af/1a0e4f/0000000000000000000100d9/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3") format("opentype");
+  font-display:auto;font-style:italic;font-weight:900;
+}
+
+body {
+  font-family: 'pt-sans', sans-serif;
+  background: #F5F5F5;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'pragmatica', sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #353535;
+  text-align: center;
+}
+
+h4 {
+  font-size: .9em;
+  color: #353535;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #1C1C1C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #F2F2F2;
+  padding: 8px 12px;
+}
+
+.nav__content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: auto 0;
+}
+
+.nav-link {
+  padding: 8px 0;
+  margin: 0 12px;
+  font-size: .9em;
+  cursor: pointer;
+}
+
+.nav-logo {
+  width: 170px;
+  height: 60px;
+  background-image: url('images/casino10.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lang-dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.lang-dropdown.expanded .toggle-icon {
+  transform: rotate(180deg);
+}
+
+.nav-lang {
+  cursor: pointer;
+  position: relative;
+}
+
+.selected-lang {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dropdown-content {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  top: 32px;
+  right: 0px;
+  background-color: #1C1C1C;
+  translate: all .350ms ease-in;
+  box-shadow:
+          0 1.3px 1.4px rgba(0, 0, 0, 0.021),
+          0 2.3px 3.5px rgba(0, 0, 0, 0.032),
+          0 3.2px 6.5px rgba(0, 0, 0, 0.041),
+          0 4.1px 11.6px rgba(0, 0, 0, 0.049),
+          0 5.5px 21.7px rgba(0, 0, 0, 0.057),
+          0 10px 52px rgba(0, 0, 0, 0.07);
+}
+
+.dropdown-content.shown {
+  visibility: visible;
+  opacity: 1;
+}
+
+.country-item {
+  width: 60px;
+  padding: 8px 6px;
+  margin: 8px 0;
+  display: block;
+}
+
+.country-item:hover {
+  background: #0066FF;
+}
+
+.country {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.belgium {
+  background-image: url('images/countries/belgium.png');
+}
+
+.chili {
+  background-image: url('images/countries/chili.png');
+}
+
+.estonia {
+  background-image: url('images/countries/estonia.png');
+}
+
+.france {
+  background-image: url('images/countries/france.png');
+}
+
+.india {
+  background-image: url('images/countries/india.svg');
+}
+
+.italy {
+  background-image: url('images/countries/italy.png');
+}
+
+.lebanon {
+  background-image: url('images/countries/lebanon.png');
+}
+
+.luxembourg {
+  background-image: url('images/countries/luxembourg.png');
+}
+
+.netherlands {
+  background-image: url('images/countries/netherlands.jpeg');
+}
+
+.poland {
+  background-image: url('images/countries/poland.png');
+}
+
+.slovakia {
+  background-image: url('images/countries/slovakia.png');
+}
+
+.slovenia {
+  background-image: url('images/countries/slovenia.png');
+}
+
+.toggle-icon {
+  margin-left: 8px;
+  height: 16px;
+  width: 16px;
+  background-image: url('images/dropdown.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.main {
+  padding: 12px 0;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 1.7;
+}
+
+
+.expand-block {
+  position: relative;
+  overflow: hidden;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.intro-text {
+  max-height: 200px;
+  transition: all 350ms ease-in-out;
+}
+
+.expand-block.expanded .intro-text {
+  max-height: 2000px;
+  padding-bottom: 64px;
+}
+.expand-block.expanded .contract-text {
+  display: block;
+}
+
+.expand-block.expanded .expand-text {
+  display: none;
+}
+
+
+.expand-block.expanded .expand-icon {
+  transform: rotate(180deg);
+}
+
+.expand-block .contract-text {
+  display: none;
+}
+
+.expand-block__control {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, .8) 0%, #F5F5F5 100%);
+  padding: 24px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .9em;
+  color: #353535;
+  cursor: pointer;
+}
+
+.expand-icon {
+  margin-left: 8px;
+  height: 16px;
+  width: 16px;
+  background-image: url('images/expand-icon.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sites-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 32px auto 0;
+}
+
+.sites-rating__text {
+  text-transform: uppercase;
+  letter-spacing: .2px;
+  font-weight: bold;
+}
+
+.sites-rating__icon {
+  height: 24px;
+  flex: 1;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sites-rating__icon.licensed {
+  background-image: url('images/licensed.svg');
+}
+
+.sites-rating__icon.secure {
+  background-image: url('images/secure-trusted.svg');
+}
+.sites-rating__icon.mobile-friendly {
+  background-image: url('images/mobile-friendly.svg');
+}
+.sites-rating__icon.fast-withdrawals {
+  background-image: url('images/fast-withdrawals.svg');
+}
+
+.casinos-table {
+  border-collapse: collapse;
+  padding: 0;
+  width: 100%;
+  margin: 32px auto;
+}
+
+.casinos-table__name {
+  font-weight: 700;
+  font-size: .8em;
+  text-transform: uppercase;
+  color: #353535;
+  text-align: center;
+  padding: 0 0 8px;
+
+}
+
+.casino-image {
+  padding: 8px 4px;
+  width: 20%;
+}
+
+.casino-image img {
+  max-width: 100%;
+}
+
+.casino-position {
+  width: 4%;
+}
+
+.casino-position .first {
+  width: 60px;
+  height: 60px;
+  background: #312300;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.casino-position .position {
+  font-size: 1.8em;
+  font-family: 'pragmatica', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.first-inner {
+  border: 6px solid #FFB600;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFB600;
+  font-family: 'pragmatica', sans-serif;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+
+.rating-stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-icon {
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.star {
+  background-image: url('images/star.svg');
+}
+
+.star-half {
+  background-image: url('images/star-half.svg');
+}
+
+.voted {
+  text-align: center;
+  color: #CC8800;
+  font-size: .8em;
+  line-height: 18px;
+  margin-top: 4px;
+}
+
+.casino-score {
+  width: 20%;
+}
+
+.casino-welcome-bonus {
+  width: 20%;
+  text-align: center;
+  padding: 0 8px;
+}
+
+.bonus-text {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.other-text {
+  color: #7C7C7C;
+  font-size: .9em;
+}
+
+.casino-score {
+  font-weight: 700;
+  font-size: 3em;
+  text-align: center;
+  width: 15%;
+  padding: 0 8px;
+}
+
+.score-container {
+  background: #0066FF;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  color: #F2F2F2;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin: 0 auto;
+  box-shadow:
+          0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+          0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+          0 12.5px 10px rgba(0, 0, 0, 0.035),
+          0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+          0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+          0 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.casino-site {
+  padding: 0 8px;
+}
+
+.cta-button {
+  background: #02FB92;
+  box-shadow: 0px 0px 8px rgba(2, 185, 86, 0.4);
+  border-radius: 14px;
+  font-family: 'pragmatica', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 172%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 9px 26px;
+  color: #353535;
+  display: block;
+  text-align: center;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  transition: all .3s ease-in-out;
+}
+
+.cta-button:hover {
+  background: #004025;
+  color: #F2F2F2;
+  box-shadow: none;
+}
+
+.casino-link {
+  margin: 8px auto 0;
+  font-size: .8em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #353535;
+  display: block;
+  width: 150px;
+}
+
+.casino-link:hover {
+  color: #0066FF;
+}
+
+.casino-row {
+  padding: 12px 0;
+}
+
+.selected-casino {
+  background: #353535;
+}
+
+.selected-casino .casino-link {
+  color: #F2F2F2;
+}
+.selected-casino .casino-link:hover {
+  color: #0066FF;
+}
+
+.selected-casino .casino-welcome-bonus {
+  color: #F2F2F2;
+}
+
+.selected-casino .other-text {
+  color: #D7D7D7;
+}
+
+.subscribe {
+  width: 100%;
+  padding: 4px 12px;
+  background: #353535;
+}
+
+.subscribe-content {
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.subscribe-icon {
+  width: 30%;
+  height: 100%;
+}
+
+.subscribe-icon img {
+  max-width: 100%;
+}
+
+.subscribe-form {
+  padding: 12px 40px 32px;
+  position: relative;
+}
+
+.subscribe-text {
+  font-size: 1.4em;
+  color: #F2F2F2;
+  line-height: 1.4;
+  font-family: 'pragmatica', sans-serif;
+}
+
+.subscribe-input {
+  height: 39px;
+  background: #F2F2F2;
+  border-radius: 2px;
+  font-size: .9em;
+  line-height: 18px;
+  color: #353535;
+  display: block;
+  width: 100%;
+  outline: 0;
+  border: 0;
+  padding: 4px 8px;
+}
+
+.subscribe-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.subscribe-button {
+  color: #FFB600;
+  text-decoration: underline;
+  font-family: 'pragmatica-condensed', sans-serif;
+  background: none;
+  outline: 0;
+  border: 0;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 1.1em;
+  margin-top: 8px;
+  padding: 0;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.responsible-gambling {
+  background: #EBEBEB;
+  padding: 36px 32px;
+  text-align: center;
+}
+
+.gambling-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 32px auto 0;
+}
+
+.gambling-icon {
+  flex: 1;
+  padding: 8px 24px;
+  max-width: 200px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gambling-icon img {
+  max-width: 100%;
+  max-height: 32px;
+  filter: grayscale(100%);
+}
+
+.footer-bottom {
+  padding: 64px 8px 32px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+  margin-bottom: 64px;
+}
+
+.footer-heading__icon {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('images/casino10.svg');
+  min-width: 200px;
+  height: 63px;
+}
+
+.footer-heading__text {
+  margin-left: 32px;
+  font-size: .9em;
+  line-height: 1.4;
+}
+
+.footer-navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-navigation__column {
+  flex: 1;
+}
+
+.footer-nav-item {
+  display: block;
+  font-size: .9em;
+  line-height: 2.1;
+}
+
+.footer-navigation--bold {
+  font-size: .8em;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icon {
+  margin-right: 12px;
+}
+
+.footer-link {
+  color: #0066FF;
+  font-size: .9em;
+  line-height: 1.6;
+  display: block;
+}
+
+.rights-reserved {
+  position: absolute;
+  bottom: 16px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 700;
+  font-size: .8em;
+}
+
