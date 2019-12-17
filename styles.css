@@ -101,11 +101,6 @@ body {
   font-size: 14px;
 }
 
-@media all and (min-width: 1024px) {
-  body {
-    font-size: 16px;
-  }
-}
 
 h1, h2, h3, h4, h5 {
   font-family: 'pragmatica', sans-serif;
@@ -114,12 +109,12 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 1.8em;
   text-align: center;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.6em;
 }
 
 h3 {
@@ -128,6 +123,16 @@ h3 {
 
 h4 {
   font-size: .9em;
+}
+
+@media all and (min-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
 }
 
 img {
@@ -205,11 +210,11 @@ header #navToggle,
 }
 
 header .menu-container {
-  background-color: rgba(49,100,122,0.3);
+  background-color: rgba(0,0,0,0.3);
 }
 
 .menu-container #closeMenu {
-  background: #1C4E63;
+  background: #353535;
 }
 
 @media all and (min-width: 1024px) {
@@ -261,7 +266,6 @@ header .menu-container {
   height: 100%;
   transition: all 0.5s ease-out;
   z-index: 3;
-  background-color: rgba(49,100,122,0.3);
 }
 
 header .menu-container.active {
@@ -277,11 +281,6 @@ header .menu-container.active {
   font-size: 70px;
   cursor: pointer;
 }
-
-.menu-container #closeMenu {
-  background: #1C4E63;
-}
-
 .menu-container .menus {
   flex: 1 1 75px;
   display: flex;
@@ -485,9 +484,11 @@ header .menu-container.active {
   }
   .langs nav .sub-menu {
     display: flex;
+    flex-flow: row wrap;
   }
   .langs nav .sub-menu li {
     display: inline-block;
+    max-width: 30px;
   }
   .langs nav .sub-menu li .lang {
     width: 30px;
@@ -684,7 +685,7 @@ p {
 .expand-block {
   position: relative;
   overflow: hidden;
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -800,7 +801,7 @@ p {
   border-collapse: separate;
   padding: 0;
   width: 100%;
-  margin: 32px auto;
+  margin: 8px auto;
   border-spacing: 0 1em;
 }
 
@@ -811,8 +812,8 @@ p {
   color: #353535;
   text-align: center;
   padding: 0 0 8px;
-
 }
+
 
 .casino-image {
   width: 50%;
@@ -826,17 +827,42 @@ p {
 
 .casino-info--mobile {
   text-align: center;
-  padding: 12px 4px 4px;
+  padding: 12px 4px 2px;
   color: #F2F2F2;
+}
+
+.casino-info__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-first {
+  flex: 1;
+}
+
+.our-score {
+  font-size: 1.6em;
+  color: #0066FF;
+  font-weight: 700;
+}
+
+.score-text {
+  color: #0066FF;
+  margin-top: 2px;
+  font-size: .8em;
 }
 
 .casino-info__header {
   font-weight: 700;
-  font-size: 1.2em;
-  margin: 8px 0 8px;
+  font-size: 1.1em;
+  margin: 0px 0 4px;
 }
 
 @media all and (min-width:1024px) {
+  .casinos-table {
+    margin: 32px 0;
+  }
   .casino-image {
     padding: 8px 4px;
     width: 20%;
@@ -886,12 +912,12 @@ p {
 .rating-stars {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .rating-icon {
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: 16px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -906,12 +932,29 @@ p {
 }
 
 .voted {
-  text-align: center;
+  text-align: left;
   color: #CC8800;
   font-size: .8em;
   line-height: 18px;
   margin-top: 4px;
 }
+
+@media all and (min-width: 1024px) {
+  .rating-icon {
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+  }
+
+  .rating-stars {
+    justify-content: center;
+  }
+
+  .voted {
+    text-align: center;
+  }
+}
+
 
 .casino-score {
   width: 20%;
@@ -1055,7 +1098,7 @@ p {
   font-family: 'pragmatica', sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 172%;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -1065,7 +1108,7 @@ p {
   display: block;
   text-align: center;
   width: 100%;
-  max-width: 200px;
+  max-width: 150px;
   margin: 0 auto;
   transition: all .3s ease-in-out;
 }
@@ -1082,8 +1125,8 @@ p {
   text-align: center;
   text-transform: uppercase;
   color: #F2F2F2;
-  display: block;
   width: 150px;
+  display: none;
 }
 
 .casino-link:hover {
@@ -1093,38 +1136,44 @@ p {
 @media screen and (min-width: 1024px) {
   .casino-link {
     color: #353535;
+    display: block;
   }
 
   .casino-site {
     background: transparent;
   }
+
+  .cta-button {
+    font-size: 18px;
+    max-width: 200px;
+  }
 }
 
-.casino-row {
+.casino-row, {
   padding: 12px 0;
   transition: background 350ms ease-out;
 }
 
-.casino-row:hover {
+.casino-row:hover, .selected-row {
   background: #353535;
 }
 
-.casino-row:hover .casino-position {
+.casino-row:hover .casino-position, .selected-row casino-position {
   color: #F2F2F2;
 }
 
-.casino-row:hover .casino-link {
+.casino-row:hover .casino-link, .selected-row .casino-link {
   color: #F2F2F2;
 }
-.casino-row:hover .casino-link:hover {
+.casino-row:hover .casino-link:hover, .selected-row  .casino-link:hover  {
   color: #0066FF;
 }
 
-.casino-row:hover .casino-welcome-bonus {
+.casino-row:hover .casino-welcome-bonus, .selected-row  .casino-welcome-bonus {
   color: #F2F2F2;
 }
 
-.casino-row:hover .other-text {
+.casino-row:hover .other-text, .selected-row  .other-text {
   color: #D7D7D7;
 }
 
@@ -1238,13 +1287,15 @@ footer {
   justify-content: center;
   max-width: 1200px;
   margin: 32px auto 0;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
 }
 
 .gambling-icon {
   flex: 1;
   padding: 8px 24px;
   max-width: 200px;
+  min-width: 150px;
+  margin: 6px 0;
   height: 32px;
   display: flex;
   align-items: center;
@@ -1264,7 +1315,7 @@ footer {
 }
 
 .footer-bottom {
-  padding: 64px 8px 32px;
+  padding: 16px 8px;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -1274,7 +1325,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-flow: column nowrap;
-  margin-bottom: 64px;
+  margin-bottom: 8px;
 }
 
 .footer-heading__icon {
@@ -1296,13 +1347,15 @@ footer {
 .footer-navigation {
   display: flex;
   justify-content: center;
-  flex-flow: column nowrap;
+  flex-flow: row wrap;
   align-items: center;
 }
 
 .footer-navigation__column {
   flex: 1;
-  margin-bottom: 32px;
+  margin-bottom: 8px;
+  min-width: 200px;
+  max-width: 200px;
 }
 
 .footer-nav-item {
@@ -1329,6 +1382,7 @@ footer {
 @media all and (min-width: 1024px) {
   .footer-heading {
     flex-flow: row nowrap;
+    margin-bottom: 64px;
   }
 
   .footer-heading__icon {
@@ -1338,6 +1392,18 @@ footer {
   .footer-navigation {
     flex-flow: row nowrap;
   }
+
+  .footer-bottom {
+    padding: 64px 8px 32px;
+  }
+
+  .footer-navigation__column {
+    flex: 1;
+    margin-bottom: 32px;
+    min-width: auto;
+    max-width: auto;
+  }
+
 }
 
 .footer-link {
@@ -1359,8 +1425,8 @@ footer {
 }
 
 .text-block {
-  padding: 16px;
-  max-width: 1000px;
+  padding: 0 16px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -1394,6 +1460,6 @@ footer {
 
 @media all and (min-width: 1024px) {
   .text-block {
-    padding: 0;
+    padding: 0 16px;
   }
 }
