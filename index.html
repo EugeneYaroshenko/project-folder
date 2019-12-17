@@ -5,139 +5,226 @@
     <title>Casino10</title>
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content=""/>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 </head>
 <body>
-<nav>
-    <div class="nav__content">
-        <div class="nav-logo"></div>
-        <ul class="nav-links">
-            <li class="nav-link">About Us</li>
-            <li class="nav-link">Easy Money</li>
-            <li class="nav-link">Quick Win</li>
-            <li class="nav-link">Lose Fast</li>
-        </ul>
-        <div class="nav-lang">
-            <div class="lang-dropdown" id="lang-dropdown">
-                <div class="selected-lang belgium"></div>
-                <div class="toggle-icon"></div>
-            </div>
-            <div class="dropdown-content">
-                <a href="" class="country-item">
-                    <div class="country chili"></div>
-                </a>
-                <a href="" class="country-item">
-                    <div class="country estonia"></div>
-                </a>
-                <a href="" class="country-item">
-                    <div class="country france"></div>
-                </a>
-                <a href="" class="country-item">
-                    <div class="country india"></div>
-                </a>
-                <a href="" class="country-item">
-                    <div class="country italy"></div>
-                </a>
-                <a href="" class="country-item">
-                    <div class="country lebanon"></div>
-                </a>
-                <a href="" class="country-item">
-                    <div class="country luxembourg"></div>
-                </a>
-                <a href="" class="country-item">
-                    <div class="country netherlands"></div>
-                </a>
-                <a href="" class="country-item">
-                    <div class="country poland"></div>
-                </a>
-                <a href="" class="country-item">
-                    <div class="country slovakia"></div>
-                </a>
-                <a href="" class="country-item">
-                    <div class="country slovenia"></div>
-                </a>
+<header>
+    <div class="container">
+        <div class="logo-container">
+            <img src="images/casino10.svg" height="40" alt="logo">
+        </div>
+        <div id="navToggle">
+            <svg width="40px" height="40px" viewBox="0 0 40 40">
+                <g fill="#fff">
+                    <path d="M5,9 l 30,0 l 0,2 l -30,0 Z"></path>
+                    <path d="M5,20 l 30,0 l 0,2 l -30,0 Z"></path>
+                    <path d="M5,31 l 30,0 l 0,2 l -30,0 Z"></path>
+                </g>
+            </svg>
+        </div>
+        <div class="menu-container">
+            <span id="closeMenu">×</span>
+            <div class="menus">
+                <nav class="menu-main-menu-container">
+                    <ul id="menu-main-menu" class="menu">
+                        <li
+                                class="menu-item menu-item-type-post_type_archive menu-item-object-casino menu-item-has-children menu-item-199">
+                            <a href="#">Casinos</a>
+                            <div class="expand"><span></span><span></span></div>
+                            <ul class="sub-menu">
+                                <li
+                                        class="menu-item menu-item-type-post_type menu-item-object-casino menu-item-2562">
+                                    <a
+                                            href="#">Casino</a>
+                                </li>
+                                <li
+                                        class="menu-item menu-item-type-post_type menu-item-object-casino menu-item-2584">
+                                    <a
+                                            href="#">Casino</a></li>
+                                <li
+                                        class="menu-item menu-item-type-post_type menu-item-object-casino menu-item-3679">
+                                    <a
+                                            href="#">Casino</a></li>
+                            </ul>
+                        </li>
+                        <li
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-243">
+                            <a href="#">Casinos </a>
+                            <div class="expand"><span></span><span></span></div>
+                            <ul class="sub-menu">
+                                <li id=""
+                                    class="menu-item menu-item-type-post_type_archive menu-item-object-blackjack menu-item-has-children menu-item-311">
+                                    <a href="#">Casino</a>
+                                    <div class="expand"><span></span><span></span></div>
+                                    <ul class="sub-menu">
+                                        <li
+                                                class="menu-item menu-item-type-post_type menu-item-object-blackjack">
+                                            <a href="#">Casino</a></li>
+                                        <li
+                                                class="menu-item menu-item-type-post_type menu-item-object-blackjack">
+                                            <a href="#">Casino</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li
+                                class="menu-item menu-item-type-post_type_archive menu-item-object-spieleautomaten">
+                            <a href="#">Casino</a></li>
+                        <li
+                                class="menu-item menu-item-type-post_type_archive menu-item-object-spieleautomaten">
+                            <a href="#">Casino</a></li>
+                        <li
+                                class="menu-item menu-item-type-post_type_archive menu-item-object-spieleautomaten">
+                            <a href="#">Casino</a></li>
+                    </ul>
+                </nav>
+                <div class="langs">
+                    <nav>
+                        <ul>
+                            <li>
+                                <span class="lang current nl"></span>
+                                <ul class="sub-menu">
+                                    <li><a href="#"><span
+                                            class="lang nl-be"></span><span></span></a></li>
+                                    <li><a href="#"><span
+                                            class="lang es-cl"></span><span></span></a></li>
+                                    <li><a href="#"><span
+                                            class="lang et"></span><span></span></a></li>
+                                    <li><a href="#"><span
+                                            class="lang fr"></span><span></span></a></li>
+                                    <li><a href="#"><span
+                                            class="lang hi"></span><span></span></a></li>
+                                    <li><a href="#"><span
+                                            class="lang it"></span><span></span></a></li>
+                                    <li><a href="#"><span
+                                            class="lang ar-lb"></span><span></span></a></li>
+                                    <li><a href="#"><span
+                                            class="lang de-lu"></span><span></span></a></li>
+                                    <li><a href="#"><span
+                                            class="lang pl"></span><span></span></a></li>
+                                    <li><a href="#"><span
+                                            class="lang sk"></span><span></span></a></li>
+                                    <li><a href="#"><span
+                                            class="lang sl"></span><span></span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </div>
-</nav>
+</header>
 <section>
     <div class="main">
-        <h1>10 Best Online Casino Sites Belgium</h1>
-        <div class="expand-block">
-            <div class="intro-text">
-                <p>Despite the fact that the SlotsUp team is fond of free online slots, we also love
-                    playing them for real money
-                    just like any other casino games fan does. And just like any other casino games fan we face many
-                    problems
-                    while trying to find a reliable online casino. We are afraid of fraudulent and cheaters, we can’t be
-                    sure
-                    that we are playing the original games, we get hidden pitfalls in wager requirements and don’t get if
-                    the
-                    casino is available and licensed in our country or not.
-                    Despite the fact that the SlotsUp team is fond of free online slots, we also love
-                    playing them for real money
-                    just like any other casino games fan does. And just like any other casino games fan we face many
-                    problems
-                    while trying to find a reliable online casino. We are afraid of fraudulent and cheaters, we can’t be
-                    sure
-                    that we are playing the original games, we get hidden pitfalls in wager requirements and don’t get if
-                    the
-                    casino is available and licensed in our country or not.
-                </p>
-                <p>Despite the fact that the SlotsUp team is fond of free online slots, we also love
-                    playing them for real money
-                    just like any other casino games fan does. And just like any other casino games fan we face many
-                    problems
-                    while trying to find a reliable online casino. We are afraid of fraudulent and cheaters, we can’t be
-                    sure
-                    that we are playing the original games, we get hidden pitfalls in wager requirements and don’t get if
-                    the
-                    casino is available and licensed in our country or not.
-                    Despite the fact that the SlotsUp team is fond of free online slots, we also love
-                    playing them for real money
-                    just like any other casino games fan does. And just like any other casino games fan we face many
-                    problems
-                    while trying to find a reliable online casino. We are afraid of fraudulent and cheaters, we can’t be
-                    sure
-                    that we are playing the original games, we get hidden pitfalls in wager requirements and don’t get if
-                    the
-                    casino is available and licensed in our country or not.
-                </p>
+        <div class="text-block">
+            <h1>10 Best Online Casino Sites Belgium</h1>
+            <div class="expand-block">
+                <div class="intro-text">
+                    <p>Despite the fact that the SlotsUp team is fond of free online slots, we also love
+                        playing them for real money
+                        just like any other casino games fan does. And just like any other casino games fan we face many
+                        problems
+                        while trying to find a reliable online casino. We are afraid of fraudulent and cheaters, we
+                        can’t be
+                        sure
+                        that we are playing the original games, we get hidden pitfalls in wager requirements and don’t
+                        get
+                        if
+                        the
+                        casino is available and licensed in our country or not.
+                        Despite the fact that the SlotsUp team is fond of free online slots, we also love
+                        playing them for real money
+                        just like any other casino games fan does. And just like any other casino games fan we face many
+                        problems
+                        while trying to find a reliable online casino. We are afraid of fraudulent and cheaters, we
+                        can’t be
+                        sure
+                        that we are playing the original games, we get hidden pitfalls in wager requirements and don’t
+                        get
+                        if
+                        the
+                        casino is available and licensed in our country or not.
+                    </p>
+                    <p>Despite the fact that the SlotsUp team is fond of free online slots, we also love
+                        playing them for real money
+                        just like any other casino games fan does. And just like any other casino games fan we face many
+                        problems
+                        while trying to find a reliable online casino. We are afraid of fraudulent and cheaters, we
+                        can’t be
+                        sure
+                        that we are playing the original games, we get hidden pitfalls in wager requirements and don’t
+                        get
+                        if
+                        the
+                        casino is available and licensed in our country or not.
+                        Despite the fact that the SlotsUp team is fond of free online slots, we also love
+                        playing them for real money
+                        just like any other casino games fan does. And just like any other casino games fan we face many
+                        problems
+                        while trying to find a reliable online casino. We are afraid of fraudulent and cheaters, we
+                        can’t be
+                        sure
+                        that we are playing the original games, we get hidden pitfalls in wager requirements and don’t
+                        get
+                        if
+                        the
+                        casino is available and licensed in our country or not.
+                    </p>
+                </div>
+                <div class="expand-block__control" id="toggle-button">
+                    <span class="expand-text">Show More</span>
+                    <span class="contract-text">Show Less</span>
+                    <div class="expand-icon"></div>
+                </div>
             </div>
-            <div class="expand-block__control" id="toggle-button">
-                <span class="expand-text">Show More</span>
-                <span class="contract-text">Show Less</span>
-                <div class="expand-icon"></div>
+            <div class="sites-rating">
+                <div class="sites-rating__text">All Sites are:</div>
+                <div class="sites-rating__icon licensed"></div>
+                <div class="sites-rating__icon secure"></div>
+                <div class="sites-rating__icon mobile-friendly"></div>
+                <div class="sites-rating__icon fast-withdrawals"></div>
             </div>
-        </div>
-        <div class="sites-rating">
-            <div class="sites-rating__text">All Sites are:</div>
-            <div class="sites-rating__icon licensed"></div>
-            <div class="sites-rating__icon secure"></div>
-            <div class="sites-rating__icon mobile-friendly"></div>
-            <div class="sites-rating__icon fast-withdrawals"></div>
         </div>
         <table class="casinos-table">
             <thead>
-            <tr >
-                <th class="casinos-table__name"></th>
+            <tr>
+                <th class="casinos-table__name casinos-table--number"></th>
                 <th class="casinos-table__name">Casino</th>
-                <th class="casinos-table__name">Rating</th>
-                <th class="casinos-table__name">Welcome Bonus</th>
-                <th class="casinos-table__name">Score</th>
+                <th class="casinos-table__name casinos-table--rating">Rating</th>
+                <th class="casinos-table__name casinos-table--welcome">Welcome Bonus</th>
+                <th class="casinos-table__name casinos-table--score">Score</th>
                 <th class="casinos-table__name">Casino Site</th>
             </tr>
             </thead>
-            <tr class="selected-casino">
-                <td class="casino-position">
+            <tr class="casino-row">
+                <td class="casino-position casinos-table--number">
                     <div class="first">
                         <div class="first-inner">1</div>
                     </div>
                 </td>
                 <td class="casino-image">
                     <img src="images/casino-image.png" alt="casino-image">
+                    <div class="casino-info--mobile">
+                        <div class="casino-info__header">Rating</div>
+                        <div class="rating-stars">
+                            <div class="rating-icon star"></div>
+                            <div class="rating-icon star"></div>
+                            <div class="rating-icon star"></div>
+                            <div class="rating-icon star"></div>
+                            <div class="rating-icon star-half"></div>
+                        </div>
+                        <div class="voted">
+                            1345 voted
+                        </div>
+                        <div class="casino-info__header">Welcome Bonus</div>
+                        <div class="bonus-text">100% Up to £100 + 300 Free Spins</div>
+                        <div class="other-text">Other text</div>
+                    </div>
                 </td>
-                <td class="casino-rating">
+                <td class="casino-rating casinos-table--rating">
                     <div class="rating-stars">
                         <div class="rating-icon star"></div>
                         <div class="rating-icon star"></div>
@@ -149,26 +236,53 @@
                         1345 voted
                     </div>
                 </td>
-                <td class="casino-welcome-bonus">
+                <td class="casino-welcome-bonus casinos-table--welcome">
                     <div class="bonus-text">100% Up to £100 + 300 Free Spins</div>
                     <div class="other-text">Other text</div>
                 </td>
-                <td class="casino-score">
-                    <div class="score-container">96</div>
+                <td class="casino-score casinos-table--score">
+                    <div class="progress mx-auto" data-value='96'>
+          <span class="progress-left">
+                        <span class="progress-bar"></span>
+          </span>
+                        <span class="progress-right">
+                        <span class="progress-bar"></span>
+          </span>
+                        <div class="progress-value">
+                            <div>96<sup class="small">%</sup></div>
+                        </div>
+                    </div>
                 </td>
                 <td class="casino-site">
                     <a href="#" class="cta-button">Get Bonus</a>
                     <a href="#" class="casino-link">Visit Genesis Casino</a>
                 </td>
             </tr>
-            <tr>
-                <td class="casino-position">
-                   <div class="position">2</div>
+
+            <tr class="casino-row">
+                <td class="casino-position casinos-table--number">
+                    <div class="position">2</div>
                 </td>
                 <td class="casino-image">
                     <img src="images/casino-image.png" alt="casino-image">
+                    <div class="casino-info--mobile">
+                        <div class="casino-info__header">Rating</div>
+                        <div class="rating-stars">
+                            <div class="rating-icon star"></div>
+                            <div class="rating-icon star"></div>
+                            <div class="rating-icon star"></div>
+                            <div class="rating-icon star"></div>
+                            <div class="rating-icon star-half"></div>
+                        </div>
+                        <div class="voted">
+                            1345 voted
+                        </div>
+                        <div class="casino-info__header">Welcome Bonus</div>
+                        <div class="bonus-text">100% Up to £100 + 300 Free Spins</div>
+                        <div class="other-text">Other text</div>
+                    </div>
                 </td>
-                <td class="casino-rating">
+                <td class="casino-rating casinos-table--rating">
                     <div class="rating-stars">
                         <div class="rating-icon star"></div>
                         <div class="rating-icon star"></div>
@@ -180,74 +294,22 @@
                         1345 voted
                     </div>
                 </td>
-                <td class="casino-welcome-bonus">
+                <td class="casino-welcome-bonus casinos-table--welcome">
                     <div class="bonus-text">100% Up to £100 + 300 Free Spins</div>
                     <div class="other-text">Other text</div>
                 </td>
-                <td class="casino-score">
-                    <div class="score-container">96</div>
-                </td>
-                <td class="casino-site">
-                    <a href="#" class="cta-button">Get Bonus</a>
-                    <a href="#" class="casino-link">Visit Genesis Casino</a>
-                </td>
-            </tr>
-            <tr>
-                <td class="casino-position">
-                    <div class="position">3</div>
-                </td>
-                <td class="casino-image">
-                    <img src="images/casino-image.png" alt="casino-image">
-                </td>
-                <td class="casino-rating">
-                    <div class="rating-stars">
-                        <div class="rating-icon star"></div>
-                        <div class="rating-icon star"></div>
-                        <div class="rating-icon star"></div>
-                        <div class="rating-icon star"></div>
-                        <div class="rating-icon star-half"></div>
+                <td class="casino-score casinos-table--score">
+                    <div class="progress mx-auto" data-value='96'>
+          <span class="progress-left">
+                        <span class="progress-bar"></span>
+          </span>
+                        <span class="progress-right">
+                        <span class="progress-bar"></span>
+          </span>
+                        <div class="progress-value">
+                            <div>96<sup class="small">%</sup></div>
+                        </div>
                     </div>
-                    <div class="voted">
-                        1345 voted
-                    </div>
-                </td>
-                <td class="casino-welcome-bonus">
-                    <div class="bonus-text">100% Up to £100 + 300 Free Spins</div>
-                    <div class="other-text">Other text</div>
-                </td>
-                <td class="casino-score">
-                    <div class="score-container">96</div>
-                </td>
-                <td class="casino-site">
-                    <a href="#" class="cta-button">Get Bonus</a>
-                    <a href="#" class="casino-link">Visit Genesis Casino</a>
-                </td>
-            </tr>
-            <tr>
-                <td class="casino-position">
-                    <div class="position">4</div>
-                </td>
-                <td class="casino-image">
-                    <img src="images/casino-image.png" alt="casino-image">
-                </td>
-                <td class="casino-rating">
-                    <div class="rating-stars">
-                        <div class="rating-icon star"></div>
-                        <div class="rating-icon star"></div>
-                        <div class="rating-icon star"></div>
-                        <div class="rating-icon star"></div>
-                        <div class="rating-icon star-half"></div>
-                    </div>
-                    <div class="voted">
-                        1345 voted
-                    </div>
-                </td>
-                <td class="casino-welcome-bonus">
-                    <div class="bonus-text">100% Up to £100 + 300 Free Spins</div>
-                    <div class="other-text">Other text</div>
-                </td>
-                <td class="casino-score">
-                    <div class="score-container">96</div>
                 </td>
                 <td class="casino-site">
                     <a href="#" class="cta-button">Get Bonus</a>
@@ -255,6 +317,28 @@
                 </td>
             </tr>
         </table>
+
+        <div class="text-block">
+            <div class="additional-content">
+                <h2>Text with Images</h2>
+                <img class="image-right" src="images/casino1.png" width="150" height="150" alt="">
+                <p>Our visitors can read about different casino types which are most suited to play at different
+                    platforms including mobile devices and about all the new technologies that have been recently
+                    introduced to make your online experience unforgettable. At our website, you can also learn about
+                    the rich variety of <a href="#" class="text-link">casino games</a> casino games which all have different odds to win real money. We will help you
+                    to understand how important it is to think beforehand about payment solutions for withdrawing your
+                    wins and depositing your bets since when playing in online casinos real money is at stake and one
+                    should be careful when choosing the money transfer platform.</p>
+                <img class="image-left" src="images/casino1.png" width="150" height="150" alt="">
+                <p>Our visitors can read about different casino types which are most suited to play at different
+                    platforms including mobile devices and about all the new technologies that have been recently
+                    introduced to make your online experience unforgettable. At our website, you can also learn about
+                    the rich variety of casino games which all have different odds to win real money. We will help you
+                    to understand how important it is to think beforehand about payment solutions for withdrawing your
+                    wins and depositing your bets since when playing in online casinos real money is at stake and one
+                    should be careful when choosing the money transfer platform.</p>
+            </div>
+        </div>
 
         <div class="subscribe">
             <div class="subscribe-content">
@@ -264,7 +348,7 @@
                 <div class="subscribe-form">
                     <form action="">
                         <p class="subscribe-text">Never miss a bonus code from the casinos you love the most!</p>
-                        <input class="subscribe-input"type="text" placeholder="Enter your email" name="email"/>
+                        <input class="subscribe-input" type="text" placeholder="Enter your email" name="email"/>
                         <div class="subscribe-button-container">
                             <button class="subscribe-button">Subscribe</button>
                         </div>
@@ -290,7 +374,8 @@
             <div class="footer-heading">
                 <div class="footer-heading__icon"></div>
                 <div class="footer-heading__text">
-                    We are a team of casino passionate individuals with the sole purpose to revolutionise and ease the bonus code quest and hassle that players like ourselves have to go through on a daily basis.
+                    We are a team of casino passionate individuals with the sole purpose to revolutionise and ease the
+                    bonus code quest and hassle that players like ourselves have to go through on a daily basis.
                     Our aim is to make bonus seeking as user-friendly as possible.
                 </div>
             </div>
@@ -331,22 +416,63 @@
         <div class="rights-reserved">© 2019 Online Casino Luxemburg - All rights reserved</div>
     </footer>
 </section>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script>
-    $(document).ready(function() {
-      $('#toggle-button').click(function() {
-        var textElement = $(this).parent();
+  $(document).ready(function () {
+    $('#toggle-button').click(function () {
+      var textElement = $(this).parent();
 
-        textElement.toggleClass('expanded');
-      })
+      textElement.toggleClass('expanded');
+    })
 
-      $('#lang-dropdown').click(function() {
-        var langMenu = $(this).siblings('.dropdown-content');
+    $('#lang-dropdown').click(function () {
+      var langMenu = $(this).siblings('.dropdown-content');
 
-        $(this).toggleClass('expanded');
-        langMenu.toggleClass('shown');
-      })
+      $(this).toggleClass('expanded');
+      langMenu.toggleClass('shown');
+    })
+
+    $(".expand").on('click', function () {
+      var li = $(this).parent();
+      var sub = li.children('.sub-menu');
+      li.toggleClass('active');
+      sub.toggle(500);
     });
+
+    $(".lang.current").on('click', function () {
+      $(this).next().toggleClass('active');
+    });
+
+    $("#navToggle, #closeMenu").click(function () {
+      console.log('here');
+      $("header .menu-container").toggleClass('active');
+    });
+
+
+    $(".progress").each(function () {
+
+      var value = $(this).attr('data-value');
+      var left = $(this).find('.progress-left .progress-bar');
+      var right = $(this).find('.progress-right .progress-bar');
+
+      if (value > 0) {
+        if (value <= 50) {
+          right.css('transform', 'rotate(' + percentageToDegrees(value) + 'deg)')
+        } else {
+          right.css('transform', 'rotate(180deg)')
+          left.css('transform', 'rotate(' + percentageToDegrees(value - 50) + 'deg)')
+        }
+      }
+
+    })
+
+    function percentageToDegrees(percentage) {
+
+      return percentage / 100 * 360
+
+    }
+  });
 </script>
 </body>
 </html>
