@@ -111,18 +111,21 @@ h1, h2, h3, h4, h5 {
 h1 {
   font-size: 1.8em;
   text-align: center;
+  margin: 24px 0 16px;
 }
 
 h2 {
-  font-size: 1.6em;
+  font-size: 1.4em;
+  margin: 16px 0 12px;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1em;
+  margin: 12px 0 8px;
 }
 
 h4 {
-  font-size: .9em;
+  font-size: .8em;
 }
 
 @media all and (min-width: 1024px) {
@@ -132,6 +135,18 @@ h4 {
 
   h1 {
     font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  h3 {
+    font-size: 1.4em;
+  }
+
+  h4 {
+    font-size: 1em;
   }
 }
 
@@ -801,7 +816,7 @@ p {
   border-collapse: separate;
   padding: 0;
   width: 100%;
-  margin: 8px auto;
+  margin: 0 auto 12px;
   border-spacing: 0 1em;
 }
 
@@ -859,9 +874,17 @@ p {
   margin: 0px 0 4px;
 }
 
+.casinos-heading {
+  display: none;
+}
+
 @media all and (min-width:1024px) {
   .casinos-table {
-    margin: 32px 0;
+    margin: 0px 0 32px;
+  }
+
+  .casinos-heading {
+    display: table-header-group;
   }
   .casino-image {
     padding: 8px 4px;
@@ -1430,19 +1453,55 @@ footer {
   margin: 0 auto;
 }
 
-.additional-content {
+.content {
   overflow: auto;
   clear: left;
 }
 
-.additional-content .image-right {
+.content .image-right {
   float: right;
   padding-left: 8px;
 }
 
-.additional-content .image-left {
+.content .image-left {
   float: left;
   padding-right: 8px;
+}
+
+.table-of-content {
+  border: 2px solid #0066FF;
+  border-radius: 20px;
+  padding: 0px 0 16px;
+  max-width: 250px;
+  min-width: 200px;
+  text-align: center;
+  float: left;
+  margin-right: 20px;
+}
+
+.table-of-content .content-list {
+  text-align: left;
+}
+
+.content-list .content-item {
+  padding: 8px 16px;
+  margin: 4px 0;
+}
+
+.content-item .content-link {
+  text-decoration: none;
+  color: #353535;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.content-item:hover {
+  background-color: #0066FF;
+}
+
+.content-item:hover .content-link {
+  color: #F2F2F2;
 }
 
 
@@ -1457,9 +1516,301 @@ footer {
   color: #0066FF;
 }
 
+.center {
+  text-align: center;
+}
+
+.table-h2 {
+  margin: 8px 0 0;
+}
+
+.unordered-list {
+  margin: 12px 0 18px;
+  padding-left: 16px;
+  max-width: 300px;
+}
+
+.unordered-list li {
+  margin: 0 0 16px 0;
+  position:relative;
+  list-style-type: none;
+}
+.unordered-list li:nth-child(1n):before {position:absolute; left:-1em;}
+.unordered-list li:nth-child(1):before {content: "\2680";}
+.unordered-list li:nth-child(2):before {content: "\2681";}
+.unordered-list li:nth-child(3):before {content: "\2682";}
+.unordered-list li:nth-child(4):before {content: "\2683";}
+.unordered-list li:nth-child(5):before {content: "\2684";}
+.unordered-list li:before {content: "\2685";}
+
+.ordered-list {
+  margin: 12px 0 18px;
+  padding-left: 16px;
+  max-width: 300px;
+}
+
+.ordered-list li {
+  margin: 0 0 16px 0;
+  position:relative;
+}
 
 @media all and (min-width: 1024px) {
   .text-block {
     padding: 0 16px;
   }
+
+  .table-h2 {
+    margin: 24px 0 4px;
+  }
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ TABLE ]*/
+
+.table-container {
+  margin: 12px 0 24px;
+}
+
+.table-element {
+  border-spacing: 1;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.table-element * {
+  position: relative;
+}
+.table-element td, .table-element th {
+  padding-left: 8px;
+}
+.table-element thead tr {
+  height: 60px;
+  background: #0066FF;
+}
+.table-element .table-content tr {
+  height: 50px;
+}
+.table-element .table-content tr:last-child {
+  border: 0;
+}
+.table-element td, .table-element th {
+  text-align: left;
+}
+.table-element td.l, .table-element th.l {
+  text-align: right;
+}
+.table-element td.c, .table-element th.c {
+  text-align: center;
+}
+.table-element td.r, .table-element th.r {
+  text-align: center;
+}
+
+
+.table-head th{
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+.table-content tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.table-content tr {
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.2;
+  font-weight: unset;
+}
+
+.column1 {
+  width: 260px;
+  padding-left: 40px;
+  font-weight: 600;
+  color: #353535;
+}
+
+.column2 {
+  width: 160px;
+}
+
+.column3 {
+  width: 245px;
+}
+
+.column4 {
+  width: 110px;
+  text-align: right;
+}
+
+.column5 {
+  width: 170px;
+  text-align: right;
+}
+
+.column6 {
+  width: 222px;
+  text-align: right;
+  padding-right: 62px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .table-element {
+    display: block;
+  }
+  .table-element > *, .table-element tr, .table-element td, .table-element th {
+    display: block;
+  }
+  .table-element thead {
+    display: none;
+  }
+  .table-element .table-content tr {
+    height: auto;
+    padding: 37px 0;
+  }
+  .table-element .table-content tr td {
+    padding-left: 40% !important;
+    margin-bottom: 24px;
+  }
+  .table-element .table-content tr td:last-child {
+    margin-bottom: 0;
+  }
+  .table-element .table-content tr td:before {
+    font-size: 14px;
+    color: #999999;
+    line-height: 1.2;
+    font-weight: unset;
+    position: absolute;
+    width: 40%;
+    left: 30px;
+    top: 0;
+  }
+
+  .column4,
+  .column5,
+  .column6 {
+    text-align: left;
+  }
+
+  .column4,
+  .column5,
+  .column6,
+  .column1,
+  .column2,
+  .column3 {
+    width: 100%;
+  }
+
+  .table-content tr {
+    font-size: 14px;
+  }
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ AVOID-CASINO ]*/
+
+.avoid-list {
+  margin: 24px 0;
+  padding: 0 54px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: column nowrap;
+}
+
+.avoid-casino {
+  max-width: 90%;
+  min-width: 200px;
+  border: 4px solid #F72D16;
+  border-radius: 10px;
+  padding: 12px 18px;
+  margin: 0 0 24px;
+  position: relative;
+}
+
+.danger-icon {
+  height: 100px;
+  width: 100px;
+  background-image: url('images/danger.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -32px;
+  right: -52px;
+}
+
+.avoid-casino__img {
+  background: #353535;
+  border-radius: 50%;
+  height: 117px;
+  width: 117px;
+  margin: 0 auto 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.underline {
+  background: #353535;
+  border-radius: 20px;
+  margin: 4px auto 16px;
+  height: 4px;
+  width: 50px;
+}
+
+
+.avoid-casino__list li {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.avoid-icon {
+  height: 16px;
+  width: 16px;
+  min-width: 16px;
+  background-image: url('images/cancel.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8px;
+}
+
+@media all and (min-width: 1024px) {
+  .avoid-list {
+    margin: 24px 0;
+    padding: 0 54px;
+    flex-flow: row nowrap;
+  }
+
+  .avoid-casino {
+    max-width: 30%;
+    min-width: 200px;
+  }
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////*/
+
+.citation-text {
+  font-size: 1.4em;
+  font-weight: bold;
+  font-style: italic;
+  max-width: 500px;
+}
+
+.citation-author {
+  font-size: 1.1em;
+  color: #0066FF;
+  font-weight: 700;
 }
