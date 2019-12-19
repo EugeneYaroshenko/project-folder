@@ -547,29 +547,27 @@
             to understand how important it is to think beforehand about payment solutions for withdrawing your
             wins and depositing your bets since when playing in online casinos real money is at stake and one
             should be careful when choosing the money transfer platform.</p>
-        <div id="table" class="table-container">
-            <table class="table-element">
-                <thead>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                </thead>
-                <tbody class="table-content">
-                <tr>
-                    <td>Casino</td>
-                    <td>123124124</td>
-                    <td>Description</td>
-                </tr>
-                <tr>
-                    <td>Casino</td>
-                    <td>123124124</td>
-                    <td>Description</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
+        <table>
+            <thead>
+            <tr>
+                <th>Test</th>
+                <th>Test</th>
+                <th>Test</th>
+            </tr>
+            </thead>
+            <tbody class="table-content">
+            <tr>
+                <td>Casino</td>
+                <td>123124124</td>
+                <td>Description</td>
+            </tr>
+            <tr>
+                <td>Casino</td>
+                <td>123124124</td>
+                <td>Description</td>
+            </tr>
+            </tbody>
+        </table>
         <div class="vertical-conversion">
             <div>
                 <img src="images/casino-image.png" alt="casino-image" class="conversion-img">
@@ -983,6 +981,15 @@
             </div>
         </div>
         <div class="rights-reserved">© 2019 Online Casino Luxemburg - All rights reserved</div>
+        <div class="cookies">
+            <div class="cookies__text">
+                We use cookies to improve the user experience.
+                By using our services, you agree to our <a href="#">use of cookies</a>.
+            </div>
+            <div class="cookies__button" id="cookies__button">
+                Agree
+            </div>
+        </div>
     </footer>
 </section>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -1018,8 +1025,11 @@
     });
 
     $("#navToggle, #closeMenu").click(function () {
-      console.log('here');
       $("header .menu-container").toggleClass('active');
+    });
+
+    $("#cookies__button").click(function () {
+      $(".cookies").hide();
     });
 
 
